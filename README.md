@@ -42,6 +42,11 @@ You can name your container by --name command.
 $ docker container run --publish 80:80 --deatach --name webhost nginx
 ```
 
+Assign environment variables by --env or -e parameter.
+```sh
+$ docker container run --publish 3306:3306 --detach --name db --env MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
+```
+
 #### Container List
 Lists running containers.
 ```sh
@@ -63,6 +68,12 @@ $ docker container logs webhost
 List container processes by container name.
 ```sh
 $ docker container top webhost
+```
+
+#### Container Stop
+Stop containe by container id.
+```sh
+$ docker container stop 3 0 b
 ```
 
 #### Container Delete
