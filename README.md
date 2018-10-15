@@ -70,6 +70,18 @@ List container processes by container name.
 $ docker container top webhost
 ```
 
+#### Container Stats
+List container performance, memory etc. stats by container name or blank*. Blank name shows every running container stats.
+```sh
+$ docker container stats webhost*
+```
+
+#### Container Inspect
+Inspect container processes by container name.
+```sh
+$ docker container top webhost  
+```
+
 #### Container Stop
 Stop containe by container id.
 ```sh
