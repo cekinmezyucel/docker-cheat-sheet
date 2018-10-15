@@ -32,14 +32,14 @@ This command download the nginx image and run container with given port informat
 $ docker container run --publish 80:80 nginx
 ```
 
---deatach or -d command lets container to run in background.
+--detach or -d command lets container to run in background.
 ```sh
-$ docker container run --publish 80:80 --deatach nginx
+$ docker container run --publish 80:80 --detach nginx
 ```
 
 You can name your container by --name command.
 ```sh
-$ docker container run --publish 80:80 --deatach --name webhost nginx
+$ docker container run --publish 80:80 --detach --name webhost nginx
 ```
 
 Assign environment variables by --env or -e parameter.
