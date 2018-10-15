@@ -8,25 +8,25 @@
 Note: To prevent to type sudo all the time. You have to add your linux user to docker group.
 * [Non-Root-User]
 
-##### Version
+#### Version
 Lists version of Docker
 ```sh
 $ docker version
 ```
 
-##### Info
+#### Info
 Lists detailed information of Docker environment.
 ```sh
 $ docker info
 ```
 
-##### Help
+#### Help
 Lists all Docker commands. Docker commands usually work like this "docker command subcommand".
 ```sh
 $ docker --help
 ```
 
-##### Container Run
+#### Container Run
 This command download the nginx image and run container with given port information. First port is hosts ports you can think its your local machine port. Second port is container's port. Ex. if the port configuration was like 8888:80 you have to navigate "localhost:8888" from your browser.
 ```sh
 $ docker container run --publish 80:80 nginx
@@ -42,7 +42,7 @@ You can name your container by --name command.
 $ docker container run --publish 80:80 --deatach --name webhost nginx
 ```
 
-##### Container List
+#### Container List
 Lists running containers.
 ```sh
 $ docker container ls
@@ -53,19 +53,19 @@ Lists all containers including stopped ones.
 $ docker container ls -a
 ```
 
-##### Container Logs
+#### Container Logs
 Lists container logs by container name.
 ```sh
 $ docker container logs webhost
 ```
 
-##### Container Process
+#### Container Process
 List container processes by container name.
 ```sh
 $ docker container top webhost
 ```
 
-##### Container Delete
+#### Container Delete
 Delete containers by ids. You can use first letters of container ids if they are unique. Running containers do not delete by this command.
 ```sh
 $ docker container rm f15 cf4 b8f d7b f9f
