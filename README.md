@@ -1,2 +1,2 @@
-# docker-cheat-sheet
+# Docker Cheat Sheet
 Docker Cheat Sheet
