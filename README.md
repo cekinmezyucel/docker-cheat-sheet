@@ -89,7 +89,7 @@ $ docker container stop 3 0 b
 ```
 
 #### Container Delete
-Delete containers by ids. You can use first letters of container ids if they are unique. Running containers do not delete by this command.
+Delete containers by ids. You can use first letters of container ids if they are unique. Running containers will not delete by this command.
 ```sh
 $ docker container rm f15 cf4 b8f d7b f9f
 ```
