@@ -83,7 +83,7 @@ $ docker container top webhost
 ```
 
 #### Container Stop
-Stop containe by container id.
+Stop container by container id.
 ```sh
 $ docker container stop 3 0 b
 ```
