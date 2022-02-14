@@ -44,6 +44,8 @@ $ docker container run --publish 80:80 --detach --name webhost nginx
 
 
 
+
+
 Assign environment variables by --env or -e parameter.
 ```sh
 $ docker container run --publish 3306:3306 --detach --name db --env MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
