@@ -27,7 +27,7 @@ $ docker --help
 ```
 
 #### Container Run
-This command download the nginx image and run container with given port information. First port is hosts ports you can think its your local machine port. Second port is container's port. Ex. if the port configuration was like 8888:80 you have to navigate "localhost:8888" from your browser.
+This command download the nginx image and run container with given port information. First port is hosts ports you can think it's your local machine port. Second port is container's port. Ex. if the port configuration was like 8888:80 you have to navigate "localhost:8888" from your browser.
 ```sh
 $ docker container run --publish 80:80 nginx
 ```
