@@ -100,7 +100,6 @@ $ docker container rm -f f15
 ```
 
 
-
 [Docker CE]: <https://docs.docker.com/install/linux/docker-ce/ubuntu/>
 [Docker Machine]: <https://docs.docker.com/machine/install-machine/>
 [Docker Compose]: <https://docs.docker.com/compose/install/>
